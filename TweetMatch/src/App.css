@@ -1,0 +1,211 @@
+.App {
+  text-align: left;
+}
+
+.tweet {
+  text-align: center;
+  font-size: 3em; 
+}
+
+
+.option {
+  background-color: #ffffff;
+  border-radius: 5em;
+  margin: 1.5em;
+  text-align: center;
+  padding: 1em;
+  font-size: 2.5em;
+  font-family: Avenir, sans-serif; 
+}
+
+.option-correct {
+  background-color: green;
+  border-radius: 5em;
+  margin: 1.5em;
+  text-align: center;
+  padding: 1em;
+  font-size: 2.5em;
+  font-family: Avenir, sans-serif; 
+}
+
+.option-wrong {
+  background-color: red;
+  border-radius: 5em;
+  margin: 1.5em;
+  text-align: center;
+  padding: 1em;
+  font-size: 2.5em;
+  font-family: Avenir, sans-serif; 
+}
+
+.submit {
+  font-size: 1em;
+  font-family: Avenir, sans-serif; 
+}
+
+.option-selected{
+  background-color: black;
+  border-radius: 5em;
+  margin: 1.5em;
+  text-align: center;
+  padding: 1em;
+  font-size: 2.5em;
+  font-family: Avenir, sans-serif; 
+  color: white;
+}
+
+.display-correct{
+  color: green;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.display-wrong{
+  color: red;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.q-header {
+  background-color: black;
+  position: sticky;
+  top: 7%;
+  width: 100%;
+  display: flex;
+  height: 5%;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center; 
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  /* opacity: 1; */
+}
+
+.options {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.blackq{
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+.greenq{
+  color :green;
+  text-decoration: none;
+}
+
+.redq{
+  color :red;
+  text-decoration: none;
+}
+
+
+.score {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.sidebar {
+  top: 30vh;
+  left:0.5vw;
+  width: 6.2vw;
+  z-index: 1;
+  background-color: transparent;
+  color: black;
+  position: fixed;
+  font-size: 2.3em;
+  border-style: solid;
+  padding: 0.1vw;
+  border-radius: 0.3em;
+  border-width: 2px;
+  vertical-align: middle;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.App-body {
+  background-color: #1DA1F2;
+  height: 100vh;
+  width: 100vw;
+  color : white;
+  font-family: Avenir, sans-serif;
+  overflow: scroll;
+  font-size: 10px;
+  scroll-behavior: smooth;
+  background-image: linear-gradient( #1DA1F2, rgb(38, 122, 218));
+}
+
+
+.App-header {
+  background-color: #1DA1F2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 7%;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center; 
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  /* text-shadow: 2px 2px 4px white; */
+  background-image: linear-gradient( #2ca3ec, #1DA1F2,);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* li {
+  border-bottom: solid;
+} */
+
+.question {
+  height: 100vh;
+  width: 90vw;
+  /* margin-left: 6vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  font-size: 1em;
+  text-align: center;
+  padding: 1em;
+}
+
+.active {
+  background-color: silver;
+}
+
+
+.stack {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
