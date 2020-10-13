@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TweetMatch/static/css/main.53f339ec.chunk.css",
+    "main.js": "/TweetMatch/static/js/main.bfaec52b.chunk.js",
+    "main.js.map": "/TweetMatch/static/js/main.bfaec52b.chunk.js.map",
+    "runtime-main.js": "/TweetMatch/static/js/runtime-main.7653f4ee.js",
+    "runtime-main.js.map": "/TweetMatch/static/js/runtime-main.7653f4ee.js.map",
+    "static/js/2.3373fd3a.chunk.js": "/TweetMatch/static/js/2.3373fd3a.chunk.js",
+    "static/js/2.3373fd3a.chunk.js.map": "/TweetMatch/static/js/2.3373fd3a.chunk.js.map",
+    "index.html": "/TweetMatch/index.html",
+    "precache-manifest.3597e5d82a44c0b8610256457586c533.js": "/TweetMatch/precache-manifest.3597e5d82a44c0b8610256457586c533.js",
+    "service-worker.js": "/TweetMatch/service-worker.js",
+    "static/css/main.53f339ec.chunk.css.map": "/TweetMatch/static/css/main.53f339ec.chunk.css.map",
+    "static/js/2.3373fd3a.chunk.js.LICENSE.txt": "/TweetMatch/static/js/2.3373fd3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7653f4ee.js",
+    "static/js/2.3373fd3a.chunk.js",
+    "static/css/main.53f339ec.chunk.css",
+    "static/js/main.bfaec52b.chunk.js"
+  ]
+}
